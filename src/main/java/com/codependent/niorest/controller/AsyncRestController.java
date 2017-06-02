@@ -29,7 +29,7 @@ import rx.schedulers.Schedulers;
 
 /**
  * Asynchronous data controller
- * @author JINGA4X
+ * @author JINGA4Xgg
  */
 @RestController
 @Api(value="", description="Synchronous data controller")

@@ -42,7 +42,7 @@ public class CorsFilter implements Filter{
 		logger.debug("### rest request from remote host[{}]",remoteHost);
 
 		if(remoteHost!=null && (corsAllowedOrigins.contains(remoteHost) || corsAllowedOrigins.equals("*"))){
-			logger.debug("### adding Access Control Headers for {} ###",remoteHost);
+			logger.debug("###AAA adding Access Control Headers for {} ###",remoteHost);
 			hResponse.setHeader("Access-Control-Allow-Origin", remoteHost);
 			//hResponse.setHeader("Access-Control-Allow-Credentials", "true");
 			hResponse.setHeader("Access-Control-Allow-Headers", "Content-Type,Accept");
